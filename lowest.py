@@ -27,7 +27,7 @@ def scoring():
     LowestRolls = []
 
     for i in range(5):
-        print(f"Dice{i + 1}: {dice_rolls[i]}")
+        print(f"Dice{i + 1}: {dice_rolls[i]}") #use of "i"
 
     while dice_rolls:
         LowRoll = min(dice_rolls)
